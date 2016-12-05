@@ -775,7 +775,7 @@ Object-C中可以过直接申明@property方式，然后就可以自动实现set
 
 hash、equals、description如果使用APPCode，代码是可以自动生成的。
 
-```object-c
+```objc
 @interface OcUser : NSObject
 
 @property(readonly) int id;
